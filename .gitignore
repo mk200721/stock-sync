@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.data/
+.DS_Store
+
+# Large or unclear-license datasets — fetched on demand via scripts/fetch_datasets.py,
+# never committed. The CC BY 4.0 Online Retail II sample below is the exception.
+data/retail_store_sales_dirty.csv
+data/dataco_supply_chain.csv
+data/grocery_favorita_shard0.parquet
+data/grocery_favorita_sample.csv
+!data/online_retail_ii_sample.csv
